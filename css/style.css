@@ -240,27 +240,31 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  background: url("../images/home-bg.png") repeat scroll center center / cover;
+  background: url("../images/home-bg.png") no-repeat center center / cover;
   height: 100vh;
   width: 100%;
+  padding:0;
+  margin: 0;
 }
 
 
 #header .header-content {
   height: 100vh;
-  text-align: left;
-  width: 100%;
+  text-align: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
 .header-content h1 {
+  /* width: 100%; */
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
   color: #000000;
+  background-color: rgba(246, 133, 19, 0.677);
+  padding: .4em ;
 }
 
 .header-content p {
@@ -269,7 +273,9 @@ nav ul li a {
   margin-top: 0;
   margin-bottom: 30px;
   text-transform: capitalize;
-  color: #ed8960;
+  color: #f68313;
+  background-color: #0000008a;
+  padding: .3em ;
   font-weight:500;
 }
 
